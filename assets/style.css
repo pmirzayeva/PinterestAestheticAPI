@@ -79,13 +79,11 @@
 }
 
 .container .box{
-    width: 100%;
     padding:0px 10px 5px 15px;
     margin-bottom:5px;
-    break-inside: avoid;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .container .box img{

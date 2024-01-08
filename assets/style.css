@@ -102,6 +102,15 @@
     .container{
         columns: 2;
     }
+
+    .header{
+        visibility: hidden;
+    }
+
+    .header .search{
+        visibility: visible;
+        width: 50%;
+    }
 }
 
 

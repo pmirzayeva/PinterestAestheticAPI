@@ -1,3 +1,4 @@
+// Async function to fetch and display images
 async function fetchAndDisplayImages(query = 'random') {
     try {
         const limit = 20;
@@ -8,7 +9,7 @@ async function fetchAndDisplayImages(query = 'random') {
         // console.log({results});
 
         const box = document.querySelector(".box");
-        box.innerHTML = results.map(photo => `<img src="${photo.urls.full}"`).join('');
+        box.innerHTML = results.map(photo => `<img src="${photo.urls.full}" alt="${photo.alt_description}">`).join('');
     } catch (err) {
         console.error(err);
     }

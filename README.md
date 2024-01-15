@@ -1,1 +1,1 @@
-# SampleTask-PinterestApp
+PinterestAestheticAPI
